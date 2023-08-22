@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <header>
+
+        <i id="menubar"  class="fa-solid fa-bars"></i>
+
+        <a href="#" class="logo">Foodio</a>
+
+        <nav class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#feature">Featured</a></li>
+            <li><a href="#review">Review</a></li>
+        </nav>
+
+        <div class="icons">
+            <a href="#"><i class="fa-solid fa-heart"></i></a>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="#"><i class="fa-solid fa-user"></i></a>
+        </div>
+    </header>
+
+ <!-- Home Section -->
+
+  <div class="home" id="home">
+      
+    <div class="slide_container active">
+        <div class="slide">
+            <div class="content">
+                <h1>Food Anytime</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero explicabo tempore 
+                    voluptates consequuntur molestias! Velit saepe reprehenderit a rem at.</p>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+
+             <div class="image">
+                 <img src="images/pizza 1.png" class="pizza">
+             </div>
+        </div>
+    </div>
+
+    <div class="slide_container">
+        <div class="slide">
+            <div class="content">
+                <h1>Food Anytime</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero explicabo tempore 
+                    voluptates consequuntur molestias! Velit saepe reprehenderit a rem at.</p>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+
+             <div class="image">
+                 <img src="images/pizza2.png" class="pizza">
+             </div>
+        </div>
+    </div>
+
+    <div class="slide_container">
+        <div class="slide">
+            <div class="content">
+                <h1>Food Anytime</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero explicabo tempore 
+                    voluptates consequuntur molestias! Velit saepe reprehenderit a rem at.</p>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+
+             <div class="image">
+                 <img src="images/pizza3.png" class="pizza">
+             </div>
+        </div>
+      </div>
+
+      <i id="prev" class="fa-solid fa-chevron-left" onclick="prev()"></i>
+      <i id="next" class="fa-solid fa-chevron-right" onclick="next()"></i>
+  </div>
+ 
+  <!-- service section -->
+
+<div class="service">
+
+    <div class="main_service">
+        <div class="service_card">
+            <i class="fa-solid fa-truck-fast"></i>
+            <h2>Fast Delivery</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+        </div>
+
+        <div class="service_card">
+            <i class="fa-solid fa-rotate-left"></i>
+            <h2>10 Days Replacement</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+        </div>
+       
+        <div class="service_card">
+            <i class="fa-solid fa-headset"></i>
+            <h2>24/7 Support</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+        </div>
+    </div>
+</div>
+
+
+<!-- Products section -->
+
+<div class="products" id="products">
+    <h1>Latest<span>Products</span></h1>
+
+    <div class="products_main">
+        <div class="products_card">
+            <div class="products_icons">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-share"></i>
+                <i class="fa-solid fa-eye"></i>
+            </div>
+            
+                <img src="images/pizza 1.png">
+            
+
+            <div class="products_text">
+                <h2>Chicken Pizza</h2>
+                <p>$80.00<span>$120.00</span></p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="products_btn">Add to cart</a>
+            </div>
+        </div>
+
+        <div class="products_card">
+            <div class="products_icons">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-share"></i>
+                <i class="fa-solid fa-eye"></i>
+            </div>
+            
+                <img src="images/pizza2.png">
+              
+
+            <div class="products_text">
+                <h2>Vegetable Pizza</h2>
+                <p>$80.00<span>$120.00</span></p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="products_btn">Add to cart</a>
+            </div>
+        </div>
+        
+        <div class="products_card">
+            <div class="products_icons">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-share"></i>
+                <i class="fa-solid fa-eye"></i>
+            </div>
+                
+            <img src="images/pizza3.png">
+            
+
+            <div class="products_text">
+                <h2>Chicken Pizza</h2>
+                <p>$80.00<span>$120.00</span></p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="products_btn">Add to cart</a>
+            </div>
+        </div>
+
+        <div class="products_card">
+            <div class="products_icons">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-share"></i>
+                <i class="fa-solid fa-eye"></i>
+            </div>
+                
+            <img src="images/bur1.png">
+            
+
+            <div class="products_text">
+                <h2>Chicken Burger</h2>
+                <p>$80.00<span>$120.00</span></p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="products_btn">Add to cart</a>
+            </div>
+        </div>
+
+        <div class="products_card">
+            <div class="products_icons">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-share"></i>
+                <i class="fa-solid fa-eye"></i>
+            </div>
+                
+            <img src="images/menu 1.png">
+            
+
+            <div class="products_text">
+                <h2>Chicken Pizza</h2>
+                <p>$80.00<span>$120.00</span></p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="products_btn">Add to cart</a>
+            </div>
+        </div>
+
+        <div class="products_card">
+            <div class="products_icons">
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-share"></i>
+                <i class="fa-solid fa-eye"></i>
+            </div>
+                
+            <img src="images/menu 2.png">
+            
+
+            <div class="products_text">
+                <h2>Chicken Pizza</h2>
+                <p>$80.00<span>$120.00</span></p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="products_btn">Add to cart</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- feature section -->
+
+ <div class="feature" id="feature">
+    <h1>Feature<span>Products</span></h1>
+
+    <div class="feature_row">
+        <div class="image_container">
+            <div class="small_img">
+                <img src="images/pizza 1.png" onclick="functio(this)">
+                <img src="images/pizza2.png"  onclick="functio(this)">
+                <img src="images/pizza3.png"  onclick="functio(this)">
+                <img src="images/pizza 1.png" onclick="functio(this)">
+            </div>
+
+            <div class="big_img">
+                <img src="images/pizza 1.png" id="imagebox">
+            </div>
+        </div>
+
+        <div class="feature_text">
+            <h2>Hot Chicken Pizza</h2>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quae commodi qui 
+                consequatur mollitia dolor vero molestiae sapiente asperiores doloremque.</p>
+
+            <a href="#" class="products_btn"> Add to Cart</a>
+        </div>
+    </div>
+
+    <div class="feature_row">
+        <div class="image_container">
+            <div class="small_img">
+                <img src="images/bur1.png" class="feature_img_1">
+                <img src="images/menu 1.png"  class="feature_img_1">
+                <img src="images/menu 2.png"  class="feature_img_1">
+                <img src="images/menu 4.png" class="feature_img_1">
+            </div>
+
+            <div class="big_img">
+                <img src="images/pizza 1.png" class="big_image1">
+            </div>
+        </div>
+
+        <div class="feature_text">
+            <h2>Hot Chicken Pizza</h2>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quae commodi qui 
+                consequatur mollitia dolor vero molestiae sapiente asperiores doloremque.</p>
+
+            <a href="#" class="products_btn"> Add to Cart</a>
+        </div>
+    </div>
+
+    <div class="feature_row">
+        <div class="image_container">
+            <div class="small_img">
+                <img src="images/pizza 1.png" class="feature_img_2">
+                <img src="images/pizza2.png"  class="feature_img_2">
+                <img src="images/pizza3.png"  class="feature_img_2">
+                <img src="images/pizza 1.png" class="feature_img_2">
+            </div>
+
+            <div class="big_img">
+                <img src="images/pizza 1.png" class="big_image2">
+            </div>
+        </div>
+
+        <div class="feature_text">
+            <h2>Hot Chicken Pizza</h2>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quae commodi qui 
+                consequatur mollitia dolor vero molestiae sapiente asperiores doloremque.</p>
+
+            <a href="#" class="products_btn"> Add to Cart</a>
+        </div>
+    </div>
+ </div>
+
+ <!-- Review Section -->
+
+ <section class="review" id="review">
+    <h1>Customer's <span>Review</span></h1>
+
+    <div class="review_contrainer">
+        <div class="review_box">
+            <img src="images/man_dp1.jpg">
+            <h2>Jhon Deo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae tenetur accusantium
+             eligendi. Tenetur quos iste numquam blanditiis nemo totam architecto!</p>
+             <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+             </div>
+        </div>
+
+        <div class="review_box">
+            <img src="images/man_dp2.jpg">
+            <h2>Jhon Deo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae tenetur accusantium
+             eligendi. Tenetur quos iste numquam blanditiis nemo totam architecto!</p>
+             <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+             </div>
+        </div>
+
+        <div class="review_box">
+            <img src="images/man_dp3.jpg">
+            <h2>Jhon Deo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae tenetur accusantium
+             eligendi. Tenetur quos iste numquam blanditiis nemo totam architecto!</p>
+             <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+             </div>
+        </div>
+    </div>
+ </section>
+
+<!-- newsletter section -->
+
+<div class="newsletter">
+    <div class="news_content">
+        <h1>monthly newsletter</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aliquid recusandae quam expedita,
+       <br> sequi nostrum? Deserunt corrupti libero laudantium nisi.</p>
+
+        <form action="">
+            <input type="text" placeholder="enter your email" class="news_box">
+            <input type="submit" value="send"  class="news_btn">
+        </form>
+    </div>
+</div>
+
+   <!-- footer section -->
+
+<section class="footer">
+
+  <div class="footer_container">
+
+      <div class="footer_box">
+          <h3>Our Stories</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">Japan</a>
+            <a href="#">Paris</a>
+      </div>
+
+      <div class="footer_box">
+        <h3>Quick Links</h3>
+          <a href="#">home</a>
+          <a href="#">products</a>
+          <a href="#">feature</a>
+          <a href="#">review</a>
+    </div>
+
+    <div class="footer_box">
+        <h3>extra links</h3>
+          <a href="#">my account</a>
+          <a href="#">my favorite</a>
+          <a href="#">my orders</a>
+          <a href="#">newsletter</a>
+    </div>
+
+    <div class="footer_box">
+        <h3>Follow Us</h3>
+          <a href="#">facebook</a>
+          <a href="#">twitter</a>
+          <a href="#">instagram</a>
+          <a href="#">linkedin</a>
+    </div>
+</div>
+
+<div class="credit"> creted by <span>Arop Dhar</span> | all right reserved.</div>
+
+   
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
